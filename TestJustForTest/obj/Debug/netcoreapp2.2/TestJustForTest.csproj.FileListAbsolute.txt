@@ -1,0 +1,17 @@
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\bin\Debug\netcoreapp2.2\TestJustForTest.deps.json
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\bin\Debug\netcoreapp2.2\TestJustForTest.runtimeconfig.json
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\bin\Debug\netcoreapp2.2\TestJustForTest.runtimeconfig.dev.json
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\bin\Debug\netcoreapp2.2\TestJustForTest.dll
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\bin\Debug\netcoreapp2.2\TestJustForTest.pdb
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\obj\Debug\netcoreapp2.2\TestJustForTest.csproj.AssemblyReference.cache
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\obj\Debug\netcoreapp2.2\TestJustForTest.AssemblyInfoInputs.cache
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\obj\Debug\netcoreapp2.2\TestJustForTest.AssemblyInfo.cs
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\obj\Debug\netcoreapp2.2\TestJustForTest.csproj.CoreCompileInputs.cache
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\obj\Debug\netcoreapp2.2\TestJustForTest.RazorAssemblyInfo.cache
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\obj\Debug\netcoreapp2.2\TestJustForTest.RazorAssemblyInfo.cs
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\obj\Debug\netcoreapp2.2\TestJustForTest.RazorTargetAssemblyInfo.cache
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\obj\Debug\netcoreapp2.2\TestJustForTest.dll
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\obj\Debug\netcoreapp2.2\TestJustForTest.pdb
+C:\Users\m.ou-mechtak\source\repos\TestJustForTest\TestJustForTest\obj\Debug\netcoreapp2.2\TestJustForTest.genruntimeconfig.cache

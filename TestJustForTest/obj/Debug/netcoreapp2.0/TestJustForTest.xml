@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestJustForTest</name>
+    </assembly>
+    <members>
+        <member name="T:TestJustForTest.Common.EntityBase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Common.EntityBase.Id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Common.EntityBase.CreatedBy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Common.EntityBase.CreatedDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Common.EntityBase.LastModifiedBy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Common.EntityBase.LastModifiedDate">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:TestJustForTest.Common.ValueObject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TestJustForTest.Common.ValueObject.EqualOperator(TestJustForTest.Common.ValueObject,TestJustForTest.Common.ValueObject)">
+            <summary>
+            
+            </summary>
+            <param name="left"></param>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestJustForTest.Common.ValueObject.NotEqualOperator(TestJustForTest.Common.ValueObject,TestJustForTest.Common.ValueObject)">
+            <summary>
+            
+            </summary>
+            <param name="left"></param>
+            <param name="right"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestJustForTest.Common.ValueObject.GetEqualityComponents">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestJustForTest.Common.ValueObject.Equals(System.Object)">
+            <summary>
+            
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestJustForTest.Common.ValueObject.GetHashCode">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:TestJustForTest.Contracts.IAsyncRepository`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:TestJustForTest.Contracts.IAsyncRepository`1.GetAllAsync">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestJustForTest.Contracts.IAsyncRepository`1.GetAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            
+            </summary>
+            <param name="predicate"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestJustForTest.Contracts.IAsyncRepository`1.GetAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Func{System.Linq.IQueryable{`0},System.Linq.IOrderedQueryable{`0}},System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="predicate"></param>
+            <param name="orderBy"></param>
+            <param name="includeString"></param>
+            <param name="disableTracking"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestJustForTest.Contracts.IAsyncRepository`1.GetAsync(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Func{System.Linq.IQueryable{`0},System.Linq.IOrderedQueryable{`0}},System.Collections.Generic.List{System.Linq.Expressions.Expression{System.Func{`0,System.Object}}},System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="predicate"></param>
+            <param name="orderBy"></param>
+            <param name="includes"></param>
+            <param name="disableTracking"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestJustForTest.Contracts.IAsyncRepository`1.GetByIdAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestJustForTest.Contracts.IAsyncRepository`1.AddAsync(`0)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestJustForTest.Contracts.IAsyncRepository`1.UpdateAsync(`0)">
+            <summary>
+            
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TestJustForTest.Entities.Activity">
+            ACTIVITY Entity
+        </member>
+        <member name="T:TestJustForTest.Entities.Article">
+            ARTICLE Entity
+        </member>
+        <member name="T:TestJustForTest.Entities.ConditionnedArticle">
+            CONDITIONNEDARTICLE Entity
+        </member>
+        <member name="T:TestJustForTest.Entities.ConsommationUnity">
+            CONSOMMATIONUNITY Entity
+        </member>
+        <member name="M:TestJustForTest.Entities.DatabaseContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions)">
+            <summary>
+            Initialise l'instance
+            </summary>
+            <param name="options">Options</param>
+        </member>
+        <member name="M:TestJustForTest.Entities.DatabaseContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc/>
+        </member>
+        <member name="P:TestJustForTest.Entities.DatabaseContext.Activities">
+            Modèles des Articles
+        </member>
+        <member name="T:TestJustForTest.Entities.Depository">
+            DEPOSITORY Entity
+        </member>
+        <member name="P:TestJustForTest.Entities.Depository.Site">
+            <summary>
+            Site
+            </summary>
+        </member>
+        <member name="T:TestJustForTest.Entities.LogisticUnity">
+            LOGISTICUNITY Entity
+        </member>
+        <member name="T:TestJustForTest.Entities.LotQuantity">
+            LOTQUANTITY Entity
+        </member>
+        <member name="T:TestJustForTest.Entities.Mouvement">
+            MOUVEMENT Entity
+        </member>
+        <member name="T:TestJustForTest.Entities.MouvementAction">
+            MOUVEMENTACTION Entity
+        </member>
+        <member name="T:TestJustForTest.Entities.MouvementParam">
+            MOUVEMENTPARAM Entity
+        </member>
+        <member name="P:TestJustForTest.Entities.MouvementParam.Site">
+            <summary>
+            site
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Entities.MouvementParam.Activity">
+            <summary>
+            Activity
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Entities.MouvementParam.Depository">
+            <summary>
+            Depository
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Entities.MouvementParam.MouvementSens">
+            <summary>
+            Mouvement Sens
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Entities.MouvementParam.OriginSystem">
+            <summary>
+            Origin System
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Entities.MouvementParam.MouvementType">
+            <summary>
+            Mouvement Type
+            </summary>
+        </member>
+        <member name="T:TestJustForTest.Entities.MouvementSens">
+            MOUVEMENT_SENS Entity
+        </member>
+        <member name="T:TestJustForTest.Entities.OriginSystem">
+            ORIGIN_SYSTEM Entity
+        </member>
+        <member name="T:TestJustForTest.Entities.Piece">
+            PIECE Entity
+        </member>
+        <member name="P:TestJustForTest.Entities.Piece.Name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:TestJustForTest.Entities.Site">
+            SITE Entity
+        </member>
+        <member name="P:TestJustForTest.Entities.Site.Activity">
+            Activity
+        </member>
+        <member name="T:TestJustForTest.Entities.StorageUnity">
+            STORAGE_EUNITY Entity
+        </member>
+        <member name="T:TestJustForTest.Entities.Store">
+            STORE Entity
+        </member>
+        <member name="T:TestJustForTest.Extensions.HostExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TestJustForTest.Migrations.frst.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="M:TestJustForTest.Migrations.t.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="M:TestJustForTest.Migrations.six.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="M:TestJustForTest.Migrations.height.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="M:TestJustForTest.Migrations.nine.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+        <member name="P:TestJustForTest.Models.MouvementParamGet.Site">
+            <summary>
+            Site
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Models.MouvementParamGet.Activity">
+            <summary>
+            Activity
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Models.MouvementParamGet.Depository">
+            <summary>
+            Depository
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Models.MouvementParamGet.MouvementSens">
+            <summary>
+            Mouvement Sens
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Models.MouvementParamGet.OriginSystem">
+            <summary>
+            Origin System
+            </summary>
+        </member>
+        <member name="P:TestJustForTest.Models.MouvementParamGet.Skip">
+            Nombre de ressources à ommettre pour la pagination
+        </member>
+        <member name="P:TestJustForTest.Models.MouvementParamGet.Take">
+            Nombre d'enregistrement à récupérer pour la pagination
+        </member>
+        <member name="T:TestJustForTest.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TestJustForTest.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:TestJustForTest.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initialise une nouvelle instance de la classe <see cref="T:TestJustForTest.Startup"/>
+            </summary>
+        </member>
+    </members>
+</doc>
