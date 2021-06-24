@@ -7,7 +7,7 @@
     using System.ComponentModel.DataAnnotations.Schema;
     using TestJustForTest.Common;
 
-    /// ARTICLE Entity
+    /// ARTICLES Entity
     [Table("OVERLOG_STOCK_ARTICLE")]
     public class Article : EntityBase
     {
