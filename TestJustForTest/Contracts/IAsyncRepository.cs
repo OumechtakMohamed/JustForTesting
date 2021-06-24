@@ -49,7 +49,7 @@ namespace TestJustForTest.Contracts
                                        List<Expression<Func<T, object>>> includes = null,
                                        bool disableTracking = true);
         /// <summary>
-        /// 
+        /// GetByIdAsync
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
